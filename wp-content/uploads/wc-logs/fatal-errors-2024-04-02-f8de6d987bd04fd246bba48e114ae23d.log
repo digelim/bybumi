@@ -1,0 +1,44 @@
+2024-04-02T19:32:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/core/functions.php(93): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/ajax-load-more.php(644): alm_loop('default', 'default', 'null', 18, 1, 1, 1, Array, false)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): AjaxLoadMore->alm_query_posts('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_alm_get...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php on line 25
+
+2024-04-02T19:32:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/core/functions.php(93): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/ajax-load-more.php(644): alm_loop('default', 'default', 'null', 18, 2, 13, 1, Array, false)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): AjaxLoadMore->alm_query_posts('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_alm_get...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php on line 25
+
+2024-04-02T19:33:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/core/functions.php(93): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/ajax-load-more.php(644): alm_loop('default', 'default', 'null', 18, 1, 1, 1, Array, false)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): AjaxLoadMore->alm_query_posts('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_alm_get...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php on line 25
+
+2024-04-02T19:33:18+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/core/functions.php(93): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/ajax-load-more/ajax-load-more.php(644): alm_loop('default', 'default', 'null', 18, 2, 13, 1, Array, false)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): AjaxLoadMore->alm_query_posts('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_alm_get...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/uploads/alm_templates/default.php on line 25
+

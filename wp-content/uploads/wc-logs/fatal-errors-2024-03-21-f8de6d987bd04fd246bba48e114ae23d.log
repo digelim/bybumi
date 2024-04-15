@@ -1,0 +1,30 @@
+2024-03-21T17:57:14+00:00 CRITICAL syntax error, unexpected '}' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/review-order.php on line 66
+
+2024-03-21T17:59:05+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/review-order.php:62
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2336): wc_get_template('checkout/review...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): woocommerce_order_review('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woo-multistep-checkout/templates/checkout/form-checkout.php(273): do_action('thwmscf_woocomm...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/review-order.php on line 62
+
+2024-03-21T19:15:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/content-product.php on line 57 and exactly 2 expected in /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/content-product.php(57): apply_filters('woocommerce_pro...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(792): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php(313): wc_get_template_part('content', 'product')
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/A in /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php on line 173
+
+2024-03-21T19:15:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/content-product.php on line 57 and exactly 2 expected in /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/content-product.php(57): apply_filters('woocommerce_pro...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(792): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php(313): wc_get_template_part('content', 'product')
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/A in /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php on line 173
+

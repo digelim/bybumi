@@ -1,0 +1,68 @@
+2024-03-29T19:30:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T19:31:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T19:32:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T19:32:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T19:33:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T19:35:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_cat_tree() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php:122
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 122
+
+2024-03-29T21:20:37+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 145
+
+2024-03-29T21:31:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function render_category_tree(), 1 passed in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 125 and exactly 2 expected in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php:3427
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php(125): render_category_tree(Array)
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3427
+
+2024-03-29T21:31:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function render_category_tree(), 1 passed in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php on line 125 and exactly 2 expected in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php:3427
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/archive-product.php(125): render_category_tree(Array)
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3427
+

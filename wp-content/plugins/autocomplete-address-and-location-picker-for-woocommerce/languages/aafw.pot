@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2022-07-15 12:15+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: admin/class-aafw-admin.php:121
+msgid "Autocomplete Address Settings"
+msgstr ""
+
+#: admin/class-aafw-admin.php:121
+msgid "Autocomplete Address"
+msgstr ""
+
+#: admin/class-aafw-admin.php:122
+msgid "Settings"
+msgstr ""
+
+#: admin/class-aafw-admin.php:133
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-aafw-admin.php:142 admin/class-aafw-admin.php:143
+msgid "General settings"
+msgstr ""
+
+#: admin/class-aafw-admin.php:241
+msgid "Google API key"
+msgstr ""
+
+#: admin/class-aafw-admin.php:249
+msgid "Billing address"
+msgstr ""
+
+#: admin/class-aafw-admin.php:256
+msgid "Shipping address"
+msgstr ""
+
+#: admin/class-aafw-admin.php:265
+msgid "Pickup address"
+msgstr ""
+
+#: admin/class-aafw-admin.php:274
+msgid "Country restrictions"
+msgstr ""
+
+#: admin/class-aafw-admin.php:282
+msgid "Address format"
+msgstr ""
+
+#: admin/class-aafw-admin.php:290
+msgid "Map"
+msgstr ""
+
+#: admin/class-aafw-admin.php:298
+msgid "Map zoom"
+msgstr ""
+
+#: admin/class-aafw-admin.php:306
+msgid "Center map"
+msgstr ""
+
+#: admin/class-aafw-admin.php:314
+msgid "Map position on the page"
+msgstr ""
+
+#: admin/class-aafw-admin.php:322
+msgid "Location Picker"
+msgstr ""
+
+#: admin/class-aafw-admin.php:330
+msgid "Location Picker update options"
+msgstr ""
+
+#: admin/class-aafw-admin.php:338
+msgid "Coordinates"
+msgstr ""
+
+#: admin/class-aafw-admin.php:346
+msgid "Customer location"
+msgstr ""
+
+#: admin/class-aafw-admin.php:367
+msgid ""
+"Google Key for Places API, Maps JavaScript API, Maps Embed API, Geocoding "
+"API. ( Application restrictions: HTTP referrers )"
+msgstr ""
+
+#: admin/class-aafw-admin.php:368
+#, php-format
+msgid ""
+"For more information on how to create the Google API key %1$sclick here%2$s."
+msgstr ""
+
+#: admin/class-aafw-admin.php:383
+msgid "Enable autocomplete address for the billing address."
+msgstr ""
+
+#: admin/class-aafw-admin.php:397
+msgid "Enable autocomplete address for the shipping address."
+msgstr ""
+
+#: admin/class-aafw-admin.php:412
+msgid "Enable autocomplete address for the pickup address."
+msgstr ""
+
+#: admin/class-aafw-admin.php:435
+msgid "Enable location picker on the map. ( map to address )"
+msgstr ""
+
+#: admin/class-aafw-admin.php:452
+msgid "Update address and location"
+msgstr ""
+
+#: admin/class-aafw-admin.php:453
+msgid "Update only the location"
+msgstr ""
+
+#: admin/class-aafw-admin.php:454
+msgid "Update address or/and location ( customer choice )"
+msgstr ""
+
+#: admin/class-aafw-admin.php:463
+msgid ""
+"Select which updates the location picker does. ( address or/and location "
+"coordinates )."
+msgstr ""
+
+#: admin/class-aafw-admin.php:486
+msgid "Enable use of customer current location."
+msgstr ""
+
+#: admin/class-aafw-admin.php:493
+msgid "Enable auto-select the customer's current location."
+msgstr ""
+
+#: admin/class-aafw-admin.php:517
+msgid ""
+"Enable adding latitude and longitude to order with a link to show on the map."
+msgstr ""
+
+#: admin/class-aafw-admin.php:567
+msgid "Show map after address fields"
+msgstr ""
+
+#: admin/class-aafw-admin.php:568
+msgid "Show map before address fields"
+msgstr ""
+
+#: admin/class-aafw-admin.php:575
+msgid "Choose where to show the map on the checkout page."
+msgstr ""
+
+#: admin/class-aafw-admin.php:589
+msgid "Enable map."
+msgstr ""
+
+#: admin/class-aafw-admin.php:608
+msgid "Latitude"
+msgstr ""
+
+#: admin/class-aafw-admin.php:609
+msgid "Longitude"
+msgstr ""
+
+#: admin/class-aafw-admin.php:615
+#, php-format
+msgid ""
+"Enter latitude & longitude to center the map. You can find the coordinates "
+"of a place on <a target=\"_blank\" href=\"%s\">Google Maps</a>."
+msgstr ""
+
+#: admin/class-aafw-admin.php:631
+msgid "Number + street name"
+msgstr ""
+
+#: admin/class-aafw-admin.php:632
+msgid "Street name + number"
+msgstr ""
+
+#: admin/class-aafw-admin.php:654
+msgid "Select country restrictions"
+msgstr ""
+
+#: admin/class-aafw-admin.php:666
+msgid ""
+"Choose countries to limit the autocomplete search results, you can choose up "
+"to 5 countries."
+msgstr ""
+
+#: admin/class-aafw-admin.php:687 admin/class-aafw-admin.php:729
+#: public/class-aafw-public.php:207 public/class-aafw-public.php:235
+#: public/class-aafw-public.php:264
+msgid "Latitude:"
+msgstr ""
+
+#: admin/class-aafw-admin.php:688 admin/class-aafw-admin.php:730
+#: public/class-aafw-public.php:207 public/class-aafw-public.php:235
+#: public/class-aafw-public.php:264
+msgid "Longitude:"
+msgstr ""
+
+#: admin/class-aafw-admin.php:695 admin/class-aafw-admin.php:738
+msgid "latitude"
+msgstr ""
+
+#: admin/class-aafw-admin.php:704 admin/class-aafw-admin.php:747
+msgid "longitude"
+msgstr ""
+
+#: admin/class-aafw-admin.php:849
+#, php-format
+msgid ""
+"Awesome, you've been using %s Plugin for a while. Could you please do us a "
+"BIG favor and give it a 5-star rating on WordPress? Just to help us spread "
+"the word and boost our motivation."
+msgstr ""
+
+#: admin/class-aafw-admin.php:853
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: admin/class-aafw-admin.php:855
+msgid "I already did"
+msgstr ""
+
+#: admin/class-aafw-admin.php:857
+msgid "No, not good enough"
+msgstr ""
+
+#: includes/functions.php:28 includes/functions.php:32
+msgid "Premium Feature"
+msgstr ""
+
+#: includes/functions.php:33
+msgid "You Discovered a Premium Feature!"
+msgstr ""
+
+#: includes/functions.php:34
+msgid "Upgrading to Premium will unlock it."
+msgstr ""
+
+#: includes/functions.php:35
+msgid "UNLOCK PREMIUM"
+msgstr ""
+
+#: includes/functions.php:64
+msgid "Developed by"
+msgstr ""
+
+#: includes/functions.php:64
+msgid "Premium"
+msgstr ""
+
+#: includes/functions.php:64
+msgid "Documents"
+msgstr ""
+
+#: public/class-aafw-public.php:173
+msgid "Select address"
+msgstr ""
+
+#: public/class-aafw-public.php:174
+msgid "Address selected"
+msgstr ""
+
+#: public/class-aafw-public.php:178
+msgid "Select location"
+msgstr ""
+
+#: public/class-aafw-public.php:179
+msgid "Location selected"
+msgstr ""
+
+#: public/class-aafw-public.php:207 public/class-aafw-public.php:235
+#: public/class-aafw-public.php:264
+msgid "Location:"
+msgstr ""

@@ -1,0 +1,32 @@
+2024-04-01T14:41:04+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_register_form() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/form-login.php:43
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2277): wc_get_template('checkout/form-l...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): woocommerce_checkout_login_form('')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woo-multistep-checkout/templates/checkout/form-checkout.php(194): do_action('thwmscf_before_...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-fu in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/form-login.php on line 43
+
+2024-04-01T21:18:36+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php:2768
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): load_products('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_load_pr...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 2768
+
+2024-04-01T21:19:31+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php:2768
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): load_products('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_load_pr...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 2768
+
+2024-04-01T21:25:27+00:00 CRITICAL syntax error, unexpected '=', expecting ';' or ',' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 2752
+
+2024-04-01T21:25:42+00:00 CRITICAL syntax error, unexpected '=', expecting ';' or ',' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 2752
+

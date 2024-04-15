@@ -1,0 +1,119 @@
+2024-03-18T20:33:56+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on bool in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(78)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php on line 103
+
+2024-03-18T20:34:30+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on bool in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(78)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php on line 103
+
+2024-03-18T20:34:37+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on bool in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(78)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/checkout/thankyou.php on line 103
+
+2024-03-18T20:38:23+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 72
+
+2024-03-18T20:40:15+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:74
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:40:47+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:74
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:40:52+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:74
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:42:02+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:74
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:42:33+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:74
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:42:53+00:00 CRITICAL syntax error, unexpected '$variation_key' (T_VARIABLE) in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 74
+
+2024-03-18T20:43:23+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:75
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 75
+
+2024-03-18T20:43:41+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:75
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 75
+
+2024-03-18T20:44:26+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php:75
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/ in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/woocommerce/cart/cart.php on line 75
+

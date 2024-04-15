@@ -1,0 +1,14 @@
+2024-03-28T19:24:04+00:00 CRITICAL syntax error, unexpected ''version'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3360
+
+2024-03-28T19:24:43+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+
+2024-03-28T19:24:44+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+
+2024-03-28T19:25:08+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+
+2024-03-28T19:25:09+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+
+2024-03-28T19:25:51+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+
+2024-03-28T19:26:08+00:00 CRITICAL require_once(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/inc/class-tmg-plugin-activation.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 15
+

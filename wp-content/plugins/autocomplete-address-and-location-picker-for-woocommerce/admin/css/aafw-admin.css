@@ -1,0 +1,99 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.aafw_premium_feature {
+    position: relative;
+    display: inline-block;
+}
+
+.aafw_premium_feature_note h2,
+.aafw_premium_feature_note p {
+    margin: 0px !important;
+    color: #000 !important;
+}
+
+.aafw_premium_feature_note h2 {
+    margin-bottom: 4px !important;
+}
+
+.aafw_premium_feature_note {
+    position: absolute;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    top: -172px;
+    left: 0px;
+}
+
+.aafw_star_button {
+    margin-right: 5px;
+}
+
+.aafw_star_button svg {
+    top: 3px;
+    position: relative;
+}
+
+.aafw_premium_feature_note:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 19px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -9px;
+    margin-bottom: -20px;
+}
+
+.aafw_premium_close {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    color: #575758 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    height: 16px !important;
+}
+
+.aafw_premium_buynow {
+    display: inline-block !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent !important;
+    padding: .375rem .75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: .25rem !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    text-decoration: none !important;
+    margin-top: 10px !important;
+    margin-bottom: 6px !important;
+}
+
+.aafw_premium_buynow:hover {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+    color: #fff !important;
+}
+
+.aafw_admin_bar {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

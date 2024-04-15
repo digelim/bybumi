@@ -1,0 +1,8 @@
+.gridwithlargeimages-list .block-editor-block-list__layout {
+	--tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+	gap: 2rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	display: grid;
+}

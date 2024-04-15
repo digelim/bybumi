@@ -1,0 +1,2 @@
+2024-03-18T20:29:02+00:00 ERROR Error creating Stripe webhook. Mode: live. Reason: Invalid URL: URL must be publicly accessible. Consider using a tool like the Stripe CLI to test webhooks locally: https://github.com/stripe/stripe-cli
+2024-03-18T20:29:02+00:00 ERROR Error creating Stripe webhook. Mode: test. Reason: Invalid URL: URL must be publicly accessible. Consider using a tool like the Stripe CLI to test webhooks locally: https://github.com/stripe/stripe-cli

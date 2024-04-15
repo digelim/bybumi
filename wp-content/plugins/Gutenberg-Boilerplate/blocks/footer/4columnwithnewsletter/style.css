@@ -1,0 +1,11 @@
+.menus-wrapper-newsletter > div:first-child {
+	gap: 2rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	display: grid;
+} 	
+
+@media (min-width: 1280px) {
+	.menus-wrapper-newsletter > div:first-child {
+		grid-column: span 2 / span 2;
+	} 	
+}

@@ -1,0 +1,13 @@
+2024-03-31T15:21:00+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_checkout_shipping_options() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php:3529
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): filter_update_order_review_fragments(Array)
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(405): apply_filters('woocommerce_upd...', Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): WC_AJAX::update_order_review('')
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(94): do_action('wc_ajax_update_...')
+#7 /Applications/MAMP/ht in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3529
+
+2024-03-31T17:16:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/wordpress/wp-includes/cache.php on line 151
+

@@ -1,0 +1,26 @@
+.block-editor-inserter__main-area span.block-editor-block-icon.has-colors {
+    width: 100%;
+    height: auto;
+}
+
+.block-editor-inserter__main-area span.block-editor-block-types-list__item-icon {
+    width: 100%;
+    padding: inherit;
+}
+
+.block-editor-inserter__main-area .components-button.block-editor-block-types-list__item {
+    height: auto;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+
+.block-editor-inserter__main-area .block-editor-block-types-list__list-item {
+    width: 100%;
+}
+
+.block-editor-inserter__main-area .block-editor__container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid gray;
+}

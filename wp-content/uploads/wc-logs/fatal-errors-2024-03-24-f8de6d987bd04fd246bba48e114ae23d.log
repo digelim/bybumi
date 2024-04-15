@@ -1,0 +1,10 @@
+2024-03-24T19:10:18+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 34409504 bytes) in /Applications/MAMP/htdocs/wordpress/wp-includes/kses.php on line 1902
+
+2024-03-24T19:11:33+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 34409504 bytes) in /Applications/MAMP/htdocs/wordpress/wp-includes/kses.php on line 1902
+
+2024-03-24T19:22:37+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3456
+
+2024-03-24T19:23:05+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/our-island/functions.php on line 3456
+
+2024-03-24T19:41:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-textdomain-registry.php on line 229
+
